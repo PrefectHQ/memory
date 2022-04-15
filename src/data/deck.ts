@@ -1,4 +1,6 @@
-export default [
+import { Card } from "@/types/Card"
+
+const cards: Card[] = [
   {
     id: 1,
     suit: 'hearts',
@@ -270,3 +272,5 @@ export default [
     value: 'JOKER'
   }
 ]
+
+export default cards
